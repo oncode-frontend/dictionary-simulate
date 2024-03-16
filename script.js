@@ -43,7 +43,7 @@ getBtnElem.addEventListener("click", () => {
                     ${mainData.meanings[0].definitions[0].definition}
                 </p>
                 <p class="word-example">
-                    word-example
+                    ${mainData.meanings[0].definitions[0].example || ""}
                 </p>
             `
             getAudioElem.setAttribute('src', mainData.phonetics[0].audio )
