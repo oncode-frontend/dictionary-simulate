@@ -48,5 +48,8 @@ getBtnElem.addEventListener("click", () => {
             `
             getAudioElem.setAttribute('src', mainData.phonetics[0].audio )
         })
+        .catch(() => {
+            getResultElem.innerHTML = `<h3 class="error">This word does not exist in my database</h3>`
+        })
 
 })
