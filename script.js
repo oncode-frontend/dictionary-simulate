@@ -7,3 +7,10 @@ const getAudioElem = $.querySelector('#sound')
 
 const url = "https://api.dictionaryapi.dev/api/v2/entries/en/"
 
+getBtnElem.addEventListener("click", () => {
+    let inputWord = getInputElem.value
+
+    fetch(`${url}${inputWord}`)
+
+    console.log(`${url}${inputWord}`);
+})
