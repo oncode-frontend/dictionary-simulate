@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 body {
-    background-color: #ae9cff;
+    background-color: #ae9cff65;
 }
 .container {
     background-color: #ffffff;
@@ -81,4 +81,10 @@ body {
 .error {
     margin-top: 80px;
     text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    color: tomato;
+    
 }
